@@ -1,0 +1,107 @@
+/* Basic reset */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4; /* Light gray background for the whole page */
+}
+
+header {
+    background: #3498db; /* Blue background for the header */
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    background: #fff; /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    color: #3498db; /* Blue color for main heading */
+}
+
+.project {
+    margin-bottom: 20px;
+    border-left: 4px solid #3498db; /* Blue left border for projects */
+    padding-left: 15px;
+}
+
+.project h3 {
+    color: #2c3e50; /* Darker shade of blue for project headings */
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #3498db; /* Blue border on focus */
+}
+
+form button {
+    background: #3498db; /* Blue button */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background: #2980b9; /* Darker blue on hover */
+}
+
+footer {
+    background: #2c3e50; /* Darker blue-gray for footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
